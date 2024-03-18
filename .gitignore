@@ -45,4 +45,6 @@ killares
 
 # Game directory
 # -----------------------------
-/game/
+server.yml
+secrets.yml
+sites.yml

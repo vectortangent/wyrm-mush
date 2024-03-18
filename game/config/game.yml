@@ -1,0 +1,12 @@
+game:
+    name: "wyrm"
+
+    category: Other
+    
+    description: "Coming Soon"
+    
+    website: ""
+        
+    public_game: false
+    
+    status: In Development
