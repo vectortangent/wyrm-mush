@@ -1,0 +1,12 @@
+<%= header %>
+<%= action_blurb %>
+
+<% data[:skills].each do |s| %>
+<%= left( s['name'], 14) %> <%= s['desc'] %> (<%= s['linked_attr'] %>)
+<% if s['specialties'] %>
+                   %xh<%= t('wod20skills.specialty_required') %>%xn <%= s['specialties'].join(", ") %>
+<% end %>
+<% end %>
+
+<%= page_footer %>
+<%= footer %>

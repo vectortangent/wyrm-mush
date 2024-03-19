@@ -1,0 +1,32 @@
+<%= header %>
+%xh<%= t('wod20skills.xp_summary', :name => char.name ) %>%xn
+
+%xh<%= t('wod20skills.xp_progress_title')%>%xn
+<% char.wod20_attributes.each do |a| %>
+<%= display(a) %>
+<% end %>
+
+<% char.wod20_action_skills.each do |a| %>
+<%= display(a) %>
+<% end %>
+
+<% char.wod20_background_skills.each do |a| %>
+<%= display(a) %>
+<% end %>
+
+<% char.wod20_languages.each do |a| %>
+<%= display(a) %>
+<% end %>
+
+<% if show_advantages %>
+<% if allow_advantages_xp %>
+<% char.wod20_advantages.each do |a| %>
+<%= display(a) %>
+<% end %>
+<% else %>
+<%= t('wod20skills.cant_learn_advantages_xp') %>
+<% end %>
+<% end %>
+
+<%= t('wod20skills.xp_title') %> <%= char.xp %>
+<%= footer %>

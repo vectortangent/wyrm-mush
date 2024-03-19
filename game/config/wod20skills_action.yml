@@ -1,0 +1,185 @@
+---
+wod20skills:
+  action_skills:
+  - name: Alertness
+    desc: Alertness
+    linked_attr: Wits
+    category: Talents
+    specialties:
+    - TBD
+  - name: Athletics
+    desc: Athletics
+    linked_attr: Wits
+    category: Talents
+    specialties:
+    - TBD
+  - name: Brawl
+    desc: Brawl
+    linked_attr: Wits
+    category: Talents
+    specialties:
+    - TBD
+  - name: Empathy
+    desc: Empathy
+    linked_attr: Wits
+    category: Talents
+    specialties:
+    - TBD
+  - name: Expression
+    desc: Expression
+    linked_attr: Wits
+    category: Talents
+    specialties:
+    - TBD
+  - name: Leadership
+    desc: Leadership
+    linked_attr: Wits
+    category: Talents
+    specialties:
+    - TBD
+  - name: Intimidation
+    desc: Intimidation
+    linked_attr: Wits
+    category: Talents
+    specialties:
+    - TBD
+  - name: Primal-Urge
+    desc: Primal-Urge
+    linked_attr: Wits
+    category: Talents
+    specialties:
+    - TBD
+  - name: Streetwise
+    desc: Streetwise
+    linked_attr: Wits
+    category: Talents
+    specialties:
+    - TBD
+  - name: Subterfuge
+    desc: Subterfuge
+    linked_attr: Wits
+    category: Talents
+    specialties:
+    - TBD
+  - name: Animal-Ken
+    desc: Animal-Ken
+    linked_attr: Wits
+    category: Skills
+    specialties:
+    - TBD
+  - name: Crafts
+    desc: TBD
+    linked_attr: Wits
+    category: Skills
+    specialties:
+    - TBD
+  - name: Drive
+    desc: TBD
+    linked_attr: Wits
+    category: Skills
+    specialties:
+    - TBD
+  - name: Etiquette
+    desc: TBD
+    linked_attr: Wits
+    category: Skills
+    specialties:
+    - TBD
+  - name: Firearms
+    desc: TBD
+    linked_attr: Wits
+    category: Skills
+    specialties:
+    - TBD
+  - name: Larceny
+    desc: TBD
+    linked_attr: Wits
+    category: Skills
+    specialties:
+    - TBD
+  - name: Melee
+    desc: TBD
+    linked_attr: Wits
+    category: Skills
+    specialties:
+    - TBD
+  - name: Performance
+    desc: TBD
+    linked_attr: Wits
+    category: Skills
+    specialties:
+    - TBD
+  - name: Stealth
+    desc: TBD
+    linked_attr: Wits
+    category: Skills
+    specialties:
+    - TBD
+  - name: Survival
+    desc: TBD
+    linked_attr: Wits
+    category: Skills
+    specialties:
+    - TBD
+  - name: Academics
+    desc: TBD
+    linked_attr: Wits
+    category: Knowledges
+    specialties:
+    - TBD
+  - name: Computer
+    desc: TBD
+    linked_attr: Wits
+    category: Knowledges
+    specialties:
+    - TBD
+  - name: Enigmas
+    desc: TBD
+    linked_attr: Wits
+    category: Knowledges
+    specialties:
+    - TBD
+  - name: Investigation
+    desc: TBD
+    linked_attr: Wits
+    category: Knowledges
+    specialties:
+    - TBD
+  - name: Law
+    desc: TBD
+    linked_attr: Wits
+    category: Knowledges
+    specialties:
+    - TBD
+  - name: Medicine
+    desc: TBD
+    linked_attr: Wits
+    category: Knowledges
+    specialties:
+    - TBD
+  - name: Occult
+    desc: TBD
+    linked_attr: Wits
+    category: Knowledges
+    specialties:
+    - TBD
+  - name: Rituals
+    desc: TBD
+    linked_attr: Wits
+    category: Knowledges
+    specialties:
+    - TBD
+  - name: Science
+    desc: TBD
+    linked_attr: Wits
+    category: Knowledges
+    specialties:
+    - TBD
+  - name: Technology
+    desc: TBD
+    linked_attr: Wits
+    category: Knowledges
+    specialties:
+    - TBD
+  action_skills_blurb: 'Abilities represent your ability in areas deemed important
+    for gameplay.  Abilities are rated from 0-5.'

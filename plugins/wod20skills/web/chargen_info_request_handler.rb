@@ -1,0 +1,31 @@
+module AresMUSH
+  module WOD20Skills
+    class ChargenInfoRequestHandler
+      def handle(request)
+
+        {
+          abilities: WOD20Skills::AbilitiesRequestHandler.new.handle(request),
+          skill_limits: Global.read_config('wod20skills', 'max_skills_at_or_above'),
+          attr_limits: Global.read_config('wod20skills', 'max_attrs_at_or_above'),
+          max_attrs: Global.read_config('wod20skills', 'max_points_on_attrs'),
+          max_action: Global.read_config('wod20skills', 'max_points_on_action'),
+          max_advantages: Global.read_config('wod20skills', 'max_points_on_advantages'),
+          min_action_skill_rating: Global.read_config('wod20skills', 'allow_incapable_action_skills') ? 0 : 1,
+          max_skill_rating: Global.read_config('wod20skills', 'max_skill_rating'),
+          max_attr_rating: Global.read_config('wod20skills', 'max_attr_rating'),
+          min_backgrounds: Global.read_config('wod20skills', 'min_backgrounds'),
+          free_languages:  Global.read_config('wod20skills', 'free_languages'),
+          free_backgrounds:  Global.read_config('wod20skills', 'free_backgrounds'),
+          advantages_cost: Global.read_config("wod20skills", "advantages_cost"),
+          max_ap: Global.read_config('wod20skills', 'max_ap'),
+          max_dots_action: WOD20Skills.max_dots_in_action,
+          max_dots_attrs: WOD20Skills.max_dots_in_attrs,
+          max_dots_advantages: WOD20Skills.max_dots_in_advantages,
+          xp_costs: Global.read_config('wod20skills', 'xp_costs'),
+          allow_advantages_xp: Global.read_config('wod20skills', 'allow_advantages_xp'),
+          use_advantages: Global.read_config('wod20skills', 'use_advantages')
+        }
+      end
+    end
+  end
+end

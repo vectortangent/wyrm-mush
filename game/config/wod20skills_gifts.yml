@@ -1,0 +1,40 @@
+wod20skills:
+  breed_gifts:
+  - name: "Aprecraft's Blessings"
+    breed_type: Garou
+    category: Homid
+    level: 1
+  - name: "Hare's Leap"
+    breed_type: Garou
+    category: Lupus
+    level: 1
+  - name: "Create Element"
+    breed_type: Garou
+    category: Metis
+    level: 1
+  auspice_gifts:
+  - name: "Blur of the Milky Eye"
+    breed_type: Garou
+    category: Ragabash
+    level: 1
+  - name: "Mother's Touch"
+    breed_type: Garou
+    category: Theurge
+    level: 1
+  - name: "Fangs of Judgement"
+    breed_type: Garou
+    category: Philodox
+    level: 1
+  - name: "Beast Speech"
+    tybreed_typepe: Garou
+    category: Gallard
+    level: 1
+  - name: "Falling Touch"
+    breed_type: Garou
+    category: Ahroun
+    level: 1
+  tribe_gifts:
+  - name: "Breath of the Wyld",
+  - breed_type: Garou
+  - category: "Black Furies"
+  - level: 1

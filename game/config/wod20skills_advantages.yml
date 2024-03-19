@@ -1,0 +1,10 @@
+---
+wod20skills:
+  advantages:
+  - name: Rank
+    desc: Rank or social status.
+  - name: Resources
+    desc: Wealth and other tangible possessions.
+  advantages_blurb: 'Advantages represent important things your character possesses
+    that are not skills.  Advantages are rated from 1-5.'
+  use_advantages: true

@@ -1,0 +1,25 @@
+---
+wod20skills:
+  attributes:
+  - name: Strength
+    desc: Strength
+  - name: Dexterity
+    desc: Dexterity
+  - name: Stamina
+    desc: Stamina
+  - name: Charisma
+    desc: Charisma
+  - name: Manipulation
+    desc: Manipulation
+  - name: Appearance
+    desc: Appearance
+  - name: Perception
+    desc: Perception
+  - name: Intelligence
+    desc: Intelligence
+  - name: Wits
+    desc: Wits
+  attributes_blurb: 'Attributes represent basic abilities that everyone has to some
+    extent. Attributes boost related skills, and come into play when no skill directly
+    applies.  Attributes are rated from 1-5.'
+  default_linked_attr: Wits
