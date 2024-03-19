@@ -40,7 +40,11 @@ killares
 
 # Website file storage
 # -----------------------------
-/game/uploads
+/game/uploads/*.*
+/game/uploads/theme_images/*.*
+!/game/uploads/theme_images/background.png
+!/game/uploads/theme_images/jumbotron.png
+
 /theme_archive
 
 # Game directory
